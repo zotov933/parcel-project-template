@@ -4,60 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Заголовок страницы</title>
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
-  <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-     <!--Шапка-->
-  <header>
-    <div class=" main-nav container">
-      <nav class="navigation">
-        <a href="./index.html" class="logo list"><span class="logo--color" lang="en">Web </span>Studio</a>
-        
-        <button type="button" class="menu-button" aria-expanded="false" aria-controls="menu-container" data-menu-button> 
-          <svg class="" width="40" height="40" aria-label="Переключатель мобильного меню">
-            <use class="menu-button__cross" href="./images/sprite.svg#close_icon"></use>
-            <use class="menu-button__menu" href="./images/sprite.svg#menu_icon"></use>
-          </svg>
-        </button>
-        <div class="menu-container" id="menu-container" data-menu>
-          <ul class="sait-nav list">
-            <li class="sait-nav__item"><a href="./index.html" class="sait-nav__link sait-nav__link--current">Студия</a></li>
-            <li class="sait-nav__item">
-              <a href="./portfolio.html" class="sait-nav__link">Портфолио</a>
-            </li>
-            <li class="sait-nav__item"><a href="" class="sait-nav__link">Контакты</a></li>
-          </ul>
-       
-         <ul class="auth-nav list">
-          <li class="auth-nav__item auth-nav__item--position">
-              <svg class="auth-nav__icon auth-nav__icon--size-email">
-                <use href="./images/sprite.svg#envelope"></use>
-              </svg>
-              <a href="mailto:info@devstudio.com" class="auth-nav__email">
-               info@devstudio.com</a>
-          </li>
-          <li class="auth-nav__item auth-nav__item--position">
-            <svg class="auth-nav__icon auth-nav__icon--size-phone">
-              <use href="./images/sprite.svg#phone"></use>
-            </svg>
-            <a href="tel:+380961111111" class="auth-nav__phone">+38 096 111 11 11
-              </a>
-          </li>
-         </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!--Уникальный контент-->
-  <main>
-    <!--Секция №1 Герой-->
-    <section class="hero">
-      <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
-      <button class="hero__button" data-modal-open>Заказать услугу</button>
-    </section>
-    </main>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
     <include src="./partials/example.html"></include>
 
