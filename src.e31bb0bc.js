@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"C:\\Users\\Lenovo\\Documents\\GitHub\\goit-markup-hw-01\\parcel-project-\\parcel-project-template\\src\\images\\reviews\\qoutes.svg":[["qoutes.af6479ec.svg","images/reviews/qoutes.svg"],"images/reviews/qoutes.svg"],"C:\\Users\\Lenovo\\Documents\\GitHub\\goit-markup-hw-01\\parcel-project-\\parcel-project-template\\src\\images\\reviews\\group36.svg":[["group36.0a05117a.svg","images/reviews/group36.svg"],"images/reviews/group36.svg"],"C:\\Users\\Lenovo\\Documents\\GitHub\\goit-markup-hw-01\\parcel-project-\\parcel-project-template\\src\\images\\reviews\\group30.svg":[["group30.dfe46677.svg","images/reviews/group30.svg"],"images/reviews/group30.svg"],"C:\\Users\\Lenovo\\Documents\\GitHub\\goit-markup-hw-01\\parcel-project-\\parcel-project-template\\src\\images\\reviews\\group27.svg":[["group27.cefc2b01.svg","images/reviews/group27.svg"],"images/reviews/group27.svg"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./sass/main.scss");
@@ -221,7 +221,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52770" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54872" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
